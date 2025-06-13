@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Menu en ligne</h1>
+    </header>
+    <main>
+        <section id="menu"></section>
+        <aside id="panier">
+            <h2>Panier</h2>
+            <ul id="liste-panier"></ul>
+            <p id="total">Total: 0€</p>
+            <button id="commander">Commander</button>
+        </aside>
+    </main>
+
+    <div id="recapModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Récapitulatif de la commande</h2>
+            <div id="recap"></div>
+            <button id="valider">Valider</button>
+            <button id="annuler">Annuler</button>
+        </div>
+    </div>
+
+    <section id="commandes">
+        <h2>Commandes en cours</h2>
+        <div id="suivi-commandes"></div>
+    </section>
+
+    <div id="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
