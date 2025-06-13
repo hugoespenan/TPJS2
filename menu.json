@@ -3,13 +3,13 @@
         "id": 1,
         "name": "Pizza",
         "price": 10,
-        "image": "pizza.jpg"
+        "image": "images/pizza.jpg"
     },
     {
         "id": 2,
         "name": "Tacos",
         "price": 8,
-        "image": "tacos.jpg"
+        "image": "images/tacos.jpg"
     },
     {
         "id": 3,
